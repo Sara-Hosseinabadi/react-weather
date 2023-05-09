@@ -48,12 +48,6 @@ export default function WeatherSearch() {
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>
-        <small>
-          <a href="https://github.com/wecodeschool/react-weather">
-            Open-source code
-          </a>
-          , by <a href="https://www.matdelac.io">Sara Hosseinabadi</a>
-        </small>
       </div>
     );
   } else {

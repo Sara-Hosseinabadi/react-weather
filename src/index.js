@@ -10,6 +10,12 @@ root.render(
     <div className="App">
       <h1>Weather App</h1>
       <WeatherSearch />
+      <small>
+        <a href="https://github.com/wecodeschool/react-weather">
+          Open-source code
+        </a>
+        , by <a href="https://www.matdelac.io">Sara Hosseinabadi</a>
+      </small>
     </div>
   </React.StrictMode>
 );
